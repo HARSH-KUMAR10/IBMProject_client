@@ -1,7 +1,9 @@
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <div className="App">
-      IBM Project G21
+    <div className="">
+      <Home/>
     </div>
   );
 }
