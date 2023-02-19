@@ -1,3 +1,5 @@
+import Header from "./hero/Header";
+
 export default function Hero() {
   return (
     <div className="">
@@ -56,26 +58,6 @@ function HeroMainText() {
         <div className="col-4 text-end">
           <img src="./assets/right_corner.jpg" alt="Regionalingo" />
         </div>
-      </div>
-    </div>
-  );
-}
-
-function Header() {
-  return (
-    <div className="px-5 pt-2 row justify-content-between align-items-baseline text-bold">
-      <div className="col-3">
-        <img src="./assets/logo.jpg" alt="Regionalingo" />
-      </div>
-      <div className="col-5 row justify-content-around  align-items-baseline">
-        <div className="col-3 text-center">Platform</div>
-        <div className="col-3 text-center">Services</div>
-        <div className="col-3 text-center">Team</div>
-        <div className="col-3 text-center">Contact</div>
-      </div>
-      <div className="col-3 row justify-content-around align-items-baseline">
-        <div className="col-4 text-success">Log in</div>
-        <div className="col-4 text-danger">Sign in</div>
       </div>
     </div>
   );
