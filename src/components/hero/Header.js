@@ -10,32 +10,13 @@ export default function Header() {
           onClick={() => (window.location.href = "/")}
         />
       </div>
-      <div className="col-5 row justify-content-around  align-items-baseline">
-        <div
-          className="col-3 text-center"
-          onClick={() => (window.location.href = "/platform")}
-        >
-          Platform
+      
+        <div className="col-5 row justify-content-around  align-items-baseline">
+          <div className="col-3 text-center"onClick={() => window.location.href="/platform"}>Platform</div>
+          <div className="col-3 text-center" onClick={() => window.location.href="/product"}>Product</div>
+          <div className="col-3 text-center" onClick={() => window.location.href="/contact"}>Contact</div>
+         
         </div>
-        <div
-          className="col-3 text-center"
-          onClick={() => (window.location.href = "/product")}
-        >
-          Product
-        </div>
-        <div
-          className="col-3 text-center"
-          onClick={() => (window.location.href = "/contact")}
-        >
-          Contact
-        </div>
-        <div
-          className="col-3 text-center"
-          onClick={() => (window.location.href = "/pricing")}
-        >
-          Pricing
-        </div>
-      </div>
       <div className="col-3 row justify-content-around align-items-baseline">
         {userEmail ? (
           <>
