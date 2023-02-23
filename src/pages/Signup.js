@@ -28,7 +28,12 @@ export default function Signup() {
       headers:{'Content-Type':"application/json"},
       body: JSON.stringify({email:email,password:password}),
     }).then(res=>res.json()).then(response=>{
-        console.log(response);
+        if(response.statusCode === 106){
+            alert("User created successfully");
+            setEmail("");setPassword("");setConfirmPassword("");
+        }else{
+            alert(response.message);
+        }
     });
   };
   return (
