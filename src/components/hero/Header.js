@@ -8,6 +8,7 @@ export default function Header() {
           <div className="col-3 text-center"onClick={() => window.location.href="/platform"}>Platform</div>
           <div className="col-3 text-center" onClick={() => window.location.href="/product"}>Product</div>
           <div className="col-3 text-center" onClick={() => window.location.href="/contact"}>Contact</div>
+         
         </div>
         <div className="col-3 row justify-content-around align-items-baseline">
           <div className="col-4 text-success" onClick={()=>window.location.href="/login"}>Log in</div>

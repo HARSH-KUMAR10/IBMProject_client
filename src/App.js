@@ -9,6 +9,7 @@ import Platform from './pages/Platform';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ function App() {
       <Route path="/product" element={<Product/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/platform" element={<Platform/>}/>
+  
     </Routes>
     </BrowserRouter>
   );
