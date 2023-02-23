@@ -15,8 +15,12 @@ export default function Contact(){
                         <div style={{fontSize:14}} className="text-bold">Enter email:</div>
                         <input type="email" placeholder="username@domain.com" className="p-1 form-control" style={{width:'70%'}}/>
                     </div>
+                    <div className="py-2 px-2">
+                        <label for="comment">Comments:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="text"></textarea> 
+                    </div>
                     <div className="py-3 px-2">
-                        <button className="btn btn-outline-success">Subscribe</button>
+                        <button className="btn btn-outline-success">Send</button>
                     </div>
                     
                     </div>
@@ -59,11 +63,28 @@ export default function Contact(){
                     </table>
                     </div>
                     <div className="col-6 display-6 py-4">Our Mentors.</div>
-                
-                        <h4>Dr. Hemal Shah <small>---- Internal Guide</small> </h4>
-                        <h4>Chetan Siddannavar <small>---- External Guide</small> </h4>
+                    <table class="table table-striped">
+                        <thead class="table-dark">
+                        <tr>
+                            <th>Name</th>
+                            <th>Branch</th>
+                    </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>Dr. Hemal Shah</td>
+                            <td>Internal Guide</td>
+                        </tr>
+                        <tr>
+                            <td>Chetan Siddannavar</td>
+                            <td>External Guide</td>
+                        </tr>
+                    </tbody>
+                    </table>
                     
                 </div>
+                
             </div>
         </div>
     
