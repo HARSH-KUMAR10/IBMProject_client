@@ -6,7 +6,6 @@ import Signup from './pages/Signup';
 import Product from './pages/Product';
 import Contact from './pages/Contact';
 import Platform from './pages/Platform';
-import Pricing from './pages/Pricing';
 
 
 
@@ -20,7 +19,6 @@ function App() {
       <Route path="/product" element={<Product/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/platform" element={<Platform/>}/>
-      <Route path="/pricing" element={<Pricing/>}/>
     </Routes>
     </BrowserRouter>
   );

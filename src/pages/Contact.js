@@ -67,7 +67,7 @@ export default function Contact(){
                         <thead class="table-dark">
                         <tr>
                             <th>Name</th>
-                            <th>Branch</th>
+                            <th>Designation</th>
                     </tr>
                     </thead>
                     
