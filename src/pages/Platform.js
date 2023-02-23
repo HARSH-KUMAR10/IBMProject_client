@@ -15,30 +15,30 @@ export default function Contact(){
             <div class="pr-md-3">
                 <div class="text-center text-sm-right mb-2-9">
                     <div class="mb-4">
-                        <img src="https://www.bootdey.com/image/80x80/FFB6C1/000000" alt="..." class="rounded-circle"/>
+                    <img src="./assets/illustration_translator.png" width="120px" height="120px" alt="..." class="rounded-circle"/>
                     </div>
                     <h4 class="sub-info">Translator</h4>
                     <p class="display-30 mb-0">Some text some text some text some text some text some text some text some text some text.</p>
                 </div>
                 <div class="text-center text-sm-right">
                     <div class="mb-4">
-                        <img src="https://www.bootdey.com/image/80x80/87CEFA/000000" alt="..." class="rounded-circle"/>
+                        <img src="./assets/eng_grammar.png" width="120px" height="120px" alt="..." class="rounded-circle"/>
                     </div>
                     <h4 class="sub-info">Grammar Recognizer</h4>
                     <p class="display-30 mb-0">Some text some text some text some text some text some text some text some text some text.</p>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 d-none d-lg-block">
-            <div class="why-choose-center-image">
-                <img src="https://www.bootdey.com/image/350x350/FF7F50/000000" alt="..." class="rounded-circle"/>
+        <div class="col-lg-4 d-none d-lg-block" >
+            <div class="why-choose-center-image text-center">
+                <img src="./assets/circle.png" width="250px" height="250px" alt="..." />
             </div>
         </div>
         <div class="col-sm-6 col-lg-4">
             <div class="pl-md-3">
                 <div class="text-center text-sm-left mb-2-9">
                     <div class="mb-4">
-                        <img src="https://www.bootdey.com/image/80x80/8A2BE2/000000" alt="..." class="rounded-circle"/>
+                        <img src="./assets/phonetics.svg" width="120px" height="120px" alt="..." class="rounded-circle"/>
                     </div>
                     <h4 class="sub-info">Phonetic</h4>
                     <p class="display-30 mb-0">Some text some text some text some text some text some text some text some text some text.</p>
@@ -46,7 +46,7 @@ export default function Contact(){
 
                 <div class="text-center text-sm-left">
                     <div class="mb-4">
-                        <img src="https://www.bootdey.com/image/80x80/20B2AA/000000" alt="..." class="rounded-circle"/>
+                        <img src="./assets/keyword.png" width="120px" height="120px" alt="..." class="rounded-circle"/>
                     </div>
                     <h4 class="sub-info">Keywords</h4>
                     <p class="display-30 mb-0">Some text some text some text some text some text some text some text some text some text.</p>
