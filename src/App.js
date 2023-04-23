@@ -6,6 +6,7 @@ import Signup from './pages/Signup';
 import Product from './pages/Product';
 import Contact from './pages/Contact';
 import Platform from './pages/Platform';
+import Translator from './pages/Translator';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/product" element={<Product/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/platform" element={<Platform/>}/>
+      <Route path="/translator" element={<Translator/>}/>
   
     </Routes>
     </BrowserRouter>

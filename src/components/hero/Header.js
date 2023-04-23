@@ -1,6 +1,5 @@
 export default function Header() {
   const userEmail = localStorage.getItem("email");
-  console.log(userEmail)
   return (
     <div className="px-5 pt-2 row justify-content-between align-items-baseline text-bold">
       <div className="col-3">

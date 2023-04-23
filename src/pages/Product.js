@@ -7,7 +7,7 @@ export default function Product(){
 
 <div className="maincontainer">
        <section>
-          <div class="container py-5">
+          <div class="container py-1">
            
             <div class="row text-center align-items-end">
              

@@ -42,6 +42,7 @@ function HeroMainText() {
             <button
               className="p-2 btn"
               style={{ backgroundColor: "#aaa", width: "100%" }}
+              onClick={()=>window.location.href="/translator"}
             >
               Let's Begin
             </button>
