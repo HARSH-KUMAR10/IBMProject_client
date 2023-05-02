@@ -9,6 +9,11 @@ export default function Translator() {
   const [inputText, setInputText] = React.useState("");
   const [outputText, setOutputText] = React.useState("");
 
+  if(!localStorage.getItem("email")){
+    alert("Please login first");
+    window.location.href="/";
+  }
+
   const translateText = () => {
     fetch("/neural/translate", {
       method: "POST",

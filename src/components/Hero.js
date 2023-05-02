@@ -32,7 +32,7 @@ function HeroMainText() {
       </div>
       <div className="row justify-content-between py-5">
         <div className="col-4 text-start">
-          <img src="./assets/left_corner.jpg" alt="Regionalingo" />
+          <img src="assets/left_corner.jpg" alt="Regionalingo" />
         </div>
         <div
           className="col-4 row justify-content-center align-items-top"
@@ -57,7 +57,7 @@ function HeroMainText() {
           </div>
         </div>
         <div className="col-4 text-end">
-          <img src="../assets/right_corner.jpg" alt="Regionalingo" />
+          <img src="assets/right_corner.jpg" alt="Regionalingo" />
         </div>
       </div>
     </div>

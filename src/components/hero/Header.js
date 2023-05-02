@@ -4,7 +4,7 @@ export default function Header() {
     <div className="px-5 pt-2 row justify-content-between align-items-baseline text-bold">
       <div className="col-3">
         <img
-          src="../assets/logo.jpg"
+          src="assets/logo.jpg"
           alt="Regionalingo"
           onClick={() => (window.location.href = "/")}
         />
