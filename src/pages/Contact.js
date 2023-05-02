@@ -15,7 +15,7 @@ export default function Contact() {
 
   const sendComment = (e) => {
     e.preventDefault();
-    fetch("/contact", {
+    fetch("/api/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email: email, comment: comment }),

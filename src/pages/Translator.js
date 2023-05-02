@@ -15,7 +15,7 @@ export default function Translator() {
   }
 
   const translateText = () => {
-    fetch("/neural/translate", {
+    fetch("/api/neural/translate", {
       method: "POST",
       body: JSON.stringify({ text: inputText, to: "gu", from: "en" }),
       headers: { "Content-Type": "application/json" },

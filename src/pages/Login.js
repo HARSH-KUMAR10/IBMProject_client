@@ -19,7 +19,7 @@ export default function Login() {
   
   const login = (e) => {
     e.preventDefault();
-    fetch("/users/login", {
+    fetch("/api/users/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email: email, password: password }),

@@ -23,7 +23,7 @@ export default function Signup() {
   });
   const signup = (e) => {
     e.preventDefault();
-    fetch("/users/signup", {
+    fetch("/api/users/signup", {
       method: "POST",
       headers:{'Content-Type':"application/json"},
       body: JSON.stringify({email:email,password:password}),
