@@ -9,21 +9,6 @@ export default function Translator() {
   const [inputText, setInputText] = React.useState("");
   const [outputText, setOutputText] = React.useState("");
 
-  // const setValue = () => {
-  //   var tempInputLanguage = inputLanguage.filter(
-  //     (item) => item !== selectedInput || item !== selectedOutput
-  //   );
-  //   var tempOutputLanguage = outputLanguage.filter(
-  //     (item) => item !== selectedOutput || item !== selectedOutput
-  //   );
-  //   setInputLanguage(tempInputLanguage);
-  //   setOutputLanguage(tempOutputLanguage);
-  // };
-
-  // React.useEffect(() => {
-  //   setValue();
-  // }, []);
-
   const translateText = () => {
     fetch("/neural/translate", {
       method: "POST",
@@ -61,6 +46,7 @@ export default function Translator() {
               style={{ width: "100%" }}
               value={inputText}
               onChange={(e) => setInputText(e.target.value)}
+              className="p-2"
             ></textarea>
             <br />
             <br />
@@ -92,12 +78,14 @@ export default function Translator() {
               disabled={true}
               value={outputText}
               onChange={(e) => setOutputText(e.target.value)}
+              className="p-2"
             ></textarea>
             <br />
             <br />
             <button
               style={{ padding: 20, width: "100%" }}
               className="bg-warning btn"
+              onClick={() => {navigator.clipboard.writeText(outputText)}}
             >
               Copy
             </button>

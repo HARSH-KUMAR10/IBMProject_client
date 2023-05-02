@@ -22,7 +22,7 @@ function App() {
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/platform" element={<Platform/>}/>
       <Route path="/translator" element={<Translator/>}/>
-  
+
     </Routes>
     </BrowserRouter>
   );

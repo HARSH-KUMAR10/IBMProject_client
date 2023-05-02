@@ -35,10 +35,10 @@ function HeroMainText() {
           <img src="./assets/left_corner.jpg" alt="Regionalingo" />
         </div>
         <div
-          className="col-4 row justify-content-between align-items-top"
+          className="col-4 row justify-content-center align-items-top"
           style={{ fontWeight: 900 }}
         >
-          <div style={{ width: "47%" }}>
+          {localStorage.getItem("email")?<div style={{ width: "47%" }}>
             <button
               className="p-2 btn"
               style={{ backgroundColor: "#aaa", width: "100%" }}
@@ -46,7 +46,7 @@ function HeroMainText() {
             >
               Let's Begin
             </button>
-          </div>
+          </div>:""}
           <div style={{ width: "47%" }}>
             <button
               className="p-2 btn"
@@ -57,7 +57,7 @@ function HeroMainText() {
           </div>
         </div>
         <div className="col-4 text-end">
-          <img src="./assets/right_corner.jpg" alt="Regionalingo" />
+          <img src="../assets/right_corner.jpg" alt="Regionalingo" />
         </div>
       </div>
     </div>
